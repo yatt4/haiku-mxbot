@@ -62,7 +62,7 @@ def haiku_format(message):
                 line = []
                 line_num += 1
 
-        # check in case the iteration did not process the message correctly (by comparing word count)
+        # check in case the iteration did not process the message correctly (by comparing string length)
         if normalize_words(result) == normalize_words(message):
             result += "_"
             print(result)
