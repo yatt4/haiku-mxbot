@@ -14,7 +14,7 @@ Uses:
 - nltk
 - dotenv
 ## Usage
-As of right now, the best way to use this bot might be to 
+As of right now, the best way to use this bot might be to:
 1. Create a virtual environment for it
 2. Install the `requirements.txt`
 3. Create a `.env` for bot account credentials and
