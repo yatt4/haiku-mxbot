@@ -15,9 +15,21 @@ Uses:
 - dotenv
 ## Usage
 As of right now, the best way to use this bot might be to:
-1. Create a virtual environment for it
-2. Install the `requirements.txt`
-3. Create a `.env` for bot account credentials and
-4. then run it.
+1. Create a virtual environment for it (`python -m venv haiku-mxbot` or whatever you'd like to name it)
+2. Activate the virtual environment - Windows: `.\\haiku-mxbot\\Scripts\\activate` - Linux/Mac OS: `source haiku-mxbot/bin/activate` 
+3. Install dependencies using `requirements.txt`: `pip install -r requirements.txt`
+4. Create a `.env` for bot account credentials:
+
+   
+      `MATRIX_HOMESERVER=matrix.placeholder.chat`
+
+   
+      `MATRIX_USER=@bot:placeholder.chat`
+
+   
+      `MATRIX_PASSWORD=password`
+
+
+6. Run it in a CLI
 
 Might provide a dockerfile at some point.
