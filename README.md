@@ -17,7 +17,7 @@ Uses:
 As of right now, the best way to use this bot might be to:
 1. Create a virtual environment for it (`python -m venv haiku-mxbot` or whatever you'd like to name it)
 2. Activate the virtual environment - Windows: `.\\haiku-mxbot\\Scripts\\activate` - Linux/Mac OS: `source haiku-mxbot/bin/activate` 
-3. Install dependencies using `requirements.txt`: `pip install -r requirements.txt`
+3. Install the dependencies mentioned above this section: `pip install simplematrixbotlib nltk dotenv`
 4. Create a `.env` for bot account credentials:
 
    
