@@ -21,10 +21,10 @@ As of right now, the best way to use this bot might be to:
 4. Create a `.env` for bot account credentials:
 
    
-      `MATRIX_HOMESERVER=matrix.placeholder.chat`
+      `MATRIX_HOMESERVER=https://matrix.example.chat`
 
    
-      `MATRIX_USER=@bot:placeholder.chat`
+      `MATRIX_USER=@bot:example.chat`
 
    
       `MATRIX_PASSWORD=password`
